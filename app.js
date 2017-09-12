@@ -10,12 +10,12 @@ var User = sequelize.import('./models/user');
 
 
 
-/*User.sync(); this will drop (delete) the user table
-User.sync({force:true});
+// User.sync(); this will drop (delete) the user table
+// User.sync({force:true});
 
-*/
+
 //create table
-sequelize.sync(); 
+sequelize.sync({force: true}); 
 
 
 app.use(bodyParser.json());
