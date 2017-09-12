@@ -15,7 +15,7 @@ var User = sequelize.import('./models/user');
 
 
 //create table
-sequelize.sync({force: true}); 
+sequelize.sync(); 
 
 
 app.use(bodyParser.json());
