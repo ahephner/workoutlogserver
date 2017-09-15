@@ -3,8 +3,8 @@ module.exports = function (sequelize, DataTypes){		//if you start getting double
 		desc: DataTypes.STRING,
 		result: DataTypes.STRING,
 		owner: DataTypes.INTEGER,
-		def: DataTypes.STRING,
-		field: DataTypes.STRING
+		def: DataTypes.STRING
+		// field: DataTypes.STRING
 
 	},{ 
 	});
